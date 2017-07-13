@@ -26,3 +26,11 @@ exampleItem2 = factoryExample(200, "Example", 27);
 
 exampleItem.printParams();
 exampleItem2.printParams();
+
+
+/*
+UPDATE:
+
+Since I have been studying JavaScript more closely with the "You Don't Know JS" serious and the "JavaScript: The Weird Parts" on Udemy, I have come to understand that attempting to copy class functionality (for example, constructors, inheritance, and polymorphism) in JavaScript is possible but not a strong method to achieve a goal. This is because JavaScript is NOT class oriented, it is actually object oriented, and functions by object behavior delegation and use of the lexical scope and [[Prototype]] chain. I am still learning more about this, but it is important to point out that, while possibly tempting and certainly more comfortable, attempting to mimic  class functionality in JavaScript may lead to code pitfalls and confusing debug scenarios.
+
+*/
